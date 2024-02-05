@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="NopCommerce">
+    <test name="Run on Firefox">
+        <classes>
+            <class name="com.nopcommerce.account.Account_01_Register"></class>
+        </classes>
+</test>
+</suite>
